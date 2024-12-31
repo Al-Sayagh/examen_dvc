@@ -34,9 +34,9 @@ stages:
     cmd: python src/train_model.py
     deps:
       - src/train_model.py
+      - models/best_params.pkl
       - data/processed/X_train_scaled.csv
       - data/processed/y_train.csv
-      - models/best_params.pkl
     outs:
       - models/random_forest_model.pkl
       - metrics/scores.json
