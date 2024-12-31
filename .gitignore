@@ -7,3 +7,6 @@
 *.log
 *.tmp
 *.bak
+
+# Exclure l'environnement virtuel
+env/
