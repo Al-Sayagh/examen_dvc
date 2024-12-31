@@ -1,7 +1,7 @@
 # Exclusions pour DVC
 /.dvc/cache/
 /.dvc/tmp/
-
+data/raw/raw.csv
 
 # Exclusions générales
 *.log
