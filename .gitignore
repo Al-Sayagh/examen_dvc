@@ -1,6 +1,8 @@
 # Exclusions pour DVC
 /.dvc/cache/
 /.dvc/tmp/
+.dvc/config.local
+
 data/raw/raw.csv
 
 # Exclusions générales
